@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>LA Restaurant Health Inspection Score</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">LA Restaurant
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="hero text-center">
+      <h1>Restaurant Health Inspection Score</h1>
+      <p>Los Angeles City</p>
+    </div>
+    <div class="container">
+      <div class="row margin-top-50">
+        <div class="col-md-2">
+          <aside class="filters">
+            <div class="panel panel-default">
+              <div class="panel-heading">Filter Search</div>
+              <div class="panel-body">
+                <div class="form-group">
+                  <ul class="list-group" id="filters">
+                    <li class="filter list-group-item">
+                      <label for="date">Enter a Year</label>
+                      <input class="form-control" id="FirstName" type="text" placeholder="2018">
+                    </li>
+                    <li class="filter list-group-item">
+                      <label for="city">Enter a Shop Name</label>
+                      <input class="form-control" id="LastName" type="text" placeholder="WABA GRILL">
+                    </li>
+                    <li class="filter list-group-item">
+                      <label for="state">Enter a Score</label>
+                      <input class="form-control" id="IDNumber" type="text" placeholder="91">
+                    </li>
+                    <li class="filter list-group-item">
+                      <label for="country">Enter a Grade</label>
+                      <input class="form-control" id="Message" type="text" placeholder="A">
+                    </li>
+                    <li class="filter list-group-item">
+                      <label for="shape">Select a Shape</label>
+                      <input class="form-control" id="null" type="text" placeholder="circle">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <div class="col-md-10">
+          <div id="table-area" class="">
+            <table id="ufo-table" class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="table-head">Year</th>
+                  <th class="table-head">Facility Name</th>
+                  <th class="table-head">Health Score</th>
+                  <th class="table-head">Health Grade</th>
+                  <th class="table-head">Address</Address></th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <span class="bottom">LA Restaurant Health Inspection Score</span>
+    </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>
