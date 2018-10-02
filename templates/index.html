@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <meta charset="UTF-8">
+  <title>Summary</title>
+
+</head>
+
+<body>
+  
+  {% include 'menu.html' %}
+
+   <!-- /.adding Geo Mapping to web -->
+  <div class="main container">
+    <div class="panel panel-default">
+        <div class="p-3 mb-2 bg-light text-dark">
+            <a class="navbar-brand" href="#" style="color:darkcyan; font-size:x-large">What that restaurant letter grade isn’t telling you about health and cleanliness?</a>
+            <br>
+            <br>
+            <hr>
+            
+        <div class="col-md-4" align="center"><h3>How It Works</h3></div>
+        <table class="col-md-4" align="center" id="table1">
+						<tr>
+						<td>Beginning of the Inspection</td>
+						<td><strong>      100 points</strong></td>
+						</tr>
+						<tr>
+						<td>Total Points Deducted</td>
+						<td>- __________</td>
+						</tr>
+						<tr>
+						<td>Remaining Points</td>
+						<td><b>Grade or Score</b></td>
+						</tr>
+            </table>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+
+
+
+        <table align=center id="table2">
+						<tr>
+						<td width="20%"><font size="3"><b>90 to 100 points</b</font></td>
+						<td width="20%"><font color="#3366ff" size="7"><b>A</b></font></td>
+						<td>Generally <b>superior</b> in food handling practices and overall food facility maintenance.</td>
+						</tr>
+						<tr>
+                <td width="20%"><font size="3"><b>80 to 89 points</b</font></td>
+						<td><font color="#339900" size="7"><b>B</b></font></td>
+						<td>Generally <b>good</b> in food handling practices and overall food facility maintenance.</td>
+						</tr>
+
+<tr>
+            <td width="20%"><font size="3"><b>70 to 79 points</b</font></td>
+						<td><font color="red" size="7"><b>C</b></font></td>
+						<td>Generally <b>acceptable</b> in food handling practices and overall general food facility maintenance.</td>
+						</tr>
+
+<tr>
+             <td width="20%"><font size="3"><b>0 to 69 points</b</font></td>
+						<td><font size="5"><b>Score</b></font></td>
+						<td><b>Poor</b> in food handling practices and overall general food facility maintenance.</td>
+						</tr>
+            </table>
+            <br>
+            <br>
+            <hr>
+
+      <div class="panel-heading">
+        <h3 class="panel-title"><b>Restaurant Health Score In Los Angeles City</b></h3>
+      </div>
+      <div class="panel-body">
+        <figure>
+          <iframe width="100%" height="520" frameborder="0" src="https://sun76779.carto.com/builder/ff459282-2a2c-474f-9b4d-ea983570f1b7/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+          
+          <figcaption>
+            <p>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+  
+        <footer class="footer">
+          <span class="bottom">LA Restaurant Health Inspection</span>
+        </footer>
+
+    </div>
+    
+      
+</body>
+
+</html>

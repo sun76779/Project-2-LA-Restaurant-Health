@@ -20,7 +20,7 @@ Los Angeles County Health Inspection Data (from Kaggle)
 
 ## Installation
 
-* Create a MySQL database i.e. `'Project 2'` and import the `restaurant_data.csv` into the database
+* Create a MySQL database i.e. `Project 2` and import the `restaurant_data.csv` into the database
 * Edit the `app.py` and put your database credentials in there.
 * Launching Flask application by running: `python app.py`
 
@@ -29,7 +29,7 @@ Los Angeles County Health Inspection Data (from Kaggle)
 
 * Summary Page containing:
   * An explanation of the Health Inspection Score/Grade.
-  * Navigation Menu provides links on the right: "Restaurant Search" which links to the restaurt data, and "Map" which links to the detail restaurt mapping
+  * Navigation Menu provides links on the right: `Restaurant Search` which links to the restaurt data, and `Map` which links to the detail restaurt mapping
 
 * Restaurant Search:
   * A List of All Restaurant in this study.
@@ -37,11 +37,10 @@ Los Angeles County Health Inspection Data (from Kaggle)
 
 * Map:
   * This Interactive map allows you to pan and zoom to get restaurant health inspection score details in your local neighbourhood or any neighborhood in Los Angeles City
-  * The map contains different layers: you can multi-select "All Year", "2015", "2016", "2017", and "2018".
+  * The map contains different layers: you can multi-select `All Year`, `2015`, `2016`, `2017`, and `2018`.
   * Use `Search Location`: Type an place/address or restaurant name and Enter. You'll see search results as red mini-pins, where mini-pins show the results, then find a score point nearby.
 
 - - -
-
 
 **Thank You!**
 
